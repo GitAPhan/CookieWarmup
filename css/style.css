@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+img, iframe {
+  max-width: 100%;
+}
+
+#card_container {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  -ms-grid-columns: (minmax(250px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  width: 90%;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  row-gap: 10px;
+  margin-top: 10%;
+  margin-left: 5%;
+}
+
+.menuCard {
+  display: -ms-grid;
+  display: grid;
+  border-radius: 5px;
+  border: 1px solid black;
+  place-items: center;
+  width: 90%;
+  padding: 10px;
+}
+/*# sourceMappingURL=style.css.map */
